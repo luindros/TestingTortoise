@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Class name="GITRELATEDLAB01.TestingGit.Git">
+<Super>Ens.BusinessService</Super>
+<TimeCreated>65390,53824.797277</TimeCreated>
+
+<Parameter name="ADAPTER">
+<Default>EnsLib.FTP.InboundAdapter</Default>
+</Parameter>
+
+<Method name="OnProcessInput">
+<FormalSpec>pInput:%RegisteredObject,*pOutput:%RegisteredObject</FormalSpec>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+	//LuisChange
+
+	Quit $$$ERROR($$$NotImplemented)
+]]></Implementation>
+</Method>
+</Class>
+</Export>
